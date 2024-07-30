@@ -9,6 +9,9 @@ not-media,question,not_media,which {actor_name} featured in {series_name}
 ...
 ```
 
+![image](https://github.com/user-attachments/assets/8feca8c6-1b8a-4c66-a745-8584775b3d2b)
+
+
 ## Layer 1
 
 detects if query is media related

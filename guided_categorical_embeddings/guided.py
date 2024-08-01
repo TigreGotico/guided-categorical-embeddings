@@ -198,7 +198,11 @@ class MultiLabelGuidedEmbeddingsTransformer(BaseEstimator, TransformerMixin):
         - self: returns an instance of self.
         """
         assert len(y) == self.n_embedders
-        transformed_X = self.vectorizer.fit_transform(X)
+
+        if isinstance(X[0], dict):
+            transformed_X = self.vectorizer.fit_transform(X)
+        else:
+            transformed_X = X
 
         for i in range(self.n_embedders):
             self.embedders[i].fit(transformed_X, y[i])
@@ -219,7 +223,10 @@ class MultiLabelGuidedEmbeddingsTransformer(BaseEstimator, TransformerMixin):
         Returns:
         - Transformed data as embeddings.
         """
-        transformed_X = self.vectorizer.transform(X)
+        if isinstance(X[0], dict):
+            transformed_X = self.vectorizer.transform(X)
+        else:
+            transformed_X = X
 
         for i in range(self.n_embedders):
             embeddings = self._get_internal_embeddings(transformed_X, index=i)

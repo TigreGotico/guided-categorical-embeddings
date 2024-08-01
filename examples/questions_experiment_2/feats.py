@@ -1,36 +1,10 @@
-def download_nltk_resources():
-    """
-    Download necessary NLTK resources if they are not already downloaded.
-    """
-    import nltk
-    from nltk.data import find
-
-    def resource_exists(resource_name: str) -> bool:
-        """Check if a specific NLTK resource is already downloaded."""
-        try:
-            find(resource_name)
-            return True
-        except LookupError:
-            return False
-
-    # Define the resource names
-    resources = ['averaged_perceptron_tagger', 'universal_tagset']
-
-    # Download resources if not already present
-    for res in resources:
-        resource = f'taggers/{res}.zip'
-        if not resource_exists(resource):
-            nltk.download(res)
-
-
 from guided_categorical_embeddings.guided import MultiLabelGuidedEmbeddingsTransformer
 from guided_categorical_embeddings.viz import tsne_viz, pca_viz
 from ovos_gguf_embeddings import GGUFTextEmbeddingsStore
+import joblib
+EMB_MODEL = "gist-all-minilm-l6-v2"
+model = GGUFTextEmbeddingsStore(model=EMB_MODEL, skip_db=True, n_gpu_layers=-1)
 
-EMB_MODEL = "paraphrase-multilingual-minilm-l12-v2"
-model = GGUFTextEmbeddingsStore(model=EMB_MODEL,
-                                skip_db=True,
-                                n_gpu_layers=30)
 X = []
 y = []
 y2 = []
@@ -61,6 +35,7 @@ transformer = MultiLabelGuidedEmbeddingsTransformer(
     embedding_size_list=[16, 32],  # size of desired output vector
     max_iter=500)
 
+
 transformer.fit(X, [y, y2])
 # command, question, sentence
 main_embeddings = transformer.transform(X, layer=0)
@@ -76,6 +51,19 @@ print("Embeddings shape:", sub_embeddings.shape)
 # Save the transformer to a file
 transformer.save(f"{EMB_MODEL}_questions_embedding_transformer.pkl")
 
+
+transformer = joblib.load(f"{EMB_MODEL}_questions_embedding_transformer.pkl")
+
+print(transformer.predict([
+    model.get_text_embeddings("what is the best joke ever"),
+    model.get_text_embeddings("tell me a joke"),
+    model.get_text_embeddings("tell me a joke please"),
+    model.get_text_embeddings("could you tell me a joke"),
+    model.get_text_embeddings("can i tell a joke")
+]))
+# ['QUERY' 'ACTION' 'ACTION' 'REQUEST' 'REQUEST']
+exit()
+exit()
 
 def viz_layer1():
     tsne_viz(main_embeddings, y, f"{EMB_MODEL}_l1_main_tsne_visualization.png")

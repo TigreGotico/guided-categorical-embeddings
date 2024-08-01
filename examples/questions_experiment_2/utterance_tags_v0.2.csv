@@ -2864,7 +2864,7 @@ QUESTION:REQUEST,Would you mind setting up the projector
 QUESTION:REQUEST,Would you mind sharing your notes with me
 QUESTION:REQUEST,Would you mind shutting the door
 QUESTION:REQUEST,Would you mind turning down the volume
-QUESTION:SENTENCE:EXCLAMATION,What a relief to have a pet camera that alerts me when my dog needs attention
+SENTENCE:EXCLAMATION,What a relief to have a pet camera that alerts me when my dog needs attention
 QUESTION:YESNO,Am I going to die
 QUESTION:YESNO,Am I sick
 QUESTION:YESNO,Are Spanish and German different languages

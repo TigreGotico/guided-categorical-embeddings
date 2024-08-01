@@ -11,7 +11,23 @@
   - EXCLAMATION: This sub-label refers to sentences that express strong emotions such as excitement, surprise, or admiration.
   - SOCIAL: This sub-label refers to sentences that are used in social situations to express well-wishes or greetings.
   - STATEMENT: This sub-label refers to sentences that make a statement or convey information.
-    
+
+## Intended Usage
+
+[CommonQuery Pipeline](https://github.com/OpenVoiceOS/ovos-core/blob/dev/ovos_core/intent_services/commonqa_service.py#L61)
+
+```python
+    def is_question_like(self, utterance: str, lang: str):
+        """
+        Check if the input utterance looks like a question for CommonQuery
+        @param utterance: user input to evaluate
+        @param lang: language of input
+        @return: True if input might be a question to handle here
+        """
+```
+
+TODO - send a PR
+
 ## Embeddings
 
 features have been engineered mainly around postags and a limited word list

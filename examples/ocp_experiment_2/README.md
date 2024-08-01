@@ -8,6 +8,10 @@ not-media,question,not_media,which {actor_name} invented {silent_movie_name}
 not-media,question,not_media,which {actor_name} featured in {series_name}
 ...
 ```
+![image](https://github.com/user-attachments/assets/83603fd6-5f12-4d3d-bf3d-8722d0dedc80)
+
+![image](https://github.com/user-attachments/assets/8feca8c6-1b8a-4c66-a745-8584775b3d2b)
+
 
 ## Layer 1
 

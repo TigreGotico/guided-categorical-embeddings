@@ -12,27 +12,12 @@
   - SOCIAL: This sub-label refers to sentences that are used in social situations to express well-wishes or greetings.
   - STATEMENT: This sub-label refers to sentences that make a statement or convey information.
     
-  
-## Multilingual
 
-> paraphrase-multilingual-minilm-l12-v2
-
-### Layer 1
-
-![](paraphrase-multilingual-minilm-l12-v2_l1_main_pca_visualization.png)
-![](paraphrase-multilingual-minilm-l12-v2_l1_main_tsne_visualization.png)
-
-### Layer 2
-
-![](paraphrase-multilingual-minilm-l12-v2_l2_main_pca_visualization.png)
-![](paraphrase-multilingual-minilm-l12-v2_l2_sub_pca_visualization.png)
-![](paraphrase-multilingual-minilm-l12-v2_l2_main_tsne_visualization.png)
-![](paraphrase-multilingual-minilm-l12-v2_l2_sub_tsne_visualization.png)
-
-
-## English
+## English only
 
 > gist-all-minilm-l6-v2
+
+See [experiment 3](https://github.com/TigreGotico/guided-categorical-embeddings/blob/dev/examples/questions_experiment_3/README.md) for multilingual embeddings
 
 ### Layer 1
 

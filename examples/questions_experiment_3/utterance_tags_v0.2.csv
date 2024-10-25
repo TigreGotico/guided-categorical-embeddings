@@ -195,7 +195,7 @@ COMMAND:ACTION,Get a haircut
 COMMAND:ACTION,Get the latest posts from Brandi Love
 COMMAND:ACTION,Go to bed
 COMMAND:ACTION,Go to the gym
-COMMAND:ACTION,Hand me the screwdriver, please
+COMMAND:ACTION,"Hand me the screwdriver, please"
 COMMAND:ACTION,Harvest the ripe tomatoes from the garden
 COMMAND:ACTION,Highlight the key points in your presentation
 COMMAND:ACTION,Increase the audiobook volume
@@ -764,7 +764,7 @@ COMMAND:DENIAL,Do not enter the construction zone
 COMMAND:DENIAL,Do not enter the lab without safety gear
 COMMAND:DENIAL,Do not enter this area
 COMMAND:DENIAL,Do not enter this area without permission
-COMMAND:DENIAL,Do not enter this area, it's dangerous
+COMMAND:DENIAL,"Do not enter this area, it's dangerous"
 COMMAND:DENIAL,Do not enter without permission
 COMMAND:DENIAL,Do not exceed the speed limit
 COMMAND:DENIAL,Do not exceed the speed limit on this road
@@ -840,12 +840,12 @@ COMMAND:DENIAL,Do not share confidential information
 COMMAND:DENIAL,Do not share sensitive data
 COMMAND:DENIAL,Do not share your passwords with anyone
 COMMAND:DENIAL,Do not shuffle the audiobook chapters
-COMMAND:DENIAL,Do not shuffle the episodes of "The Daily"
+COMMAND:DENIAL,Do not shuffle the episodes of 'The Daily'
 COMMAND:DENIAL,Do not skip the ads during this broadcast
 COMMAND:DENIAL,Do not skip the intro for this series
 COMMAND:DENIAL,Do not skip the intro of the movie
 COMMAND:DENIAL,Do not skip the opening credits
-COMMAND:DENIAL,Do not skip this song, it’s my favorite
+COMMAND:DENIAL,"Do not skip this song, it’s my favorite"
 COMMAND:DENIAL,Do not smoke in the building
 COMMAND:DENIAL,Do not smoke in this area
 COMMAND:DENIAL,Do not speak out of turn
@@ -918,7 +918,7 @@ COMMAND:DENIAL,Don't consume alcohol while on medication
 COMMAND:DENIAL,Don't disregard the safety instructions
 COMMAND:DENIAL,Don't drink and drive
 COMMAND:DENIAL,Don't drive without a valid license
-COMMAND:DENIAL,Don't eat that, it's spoiled
+COMMAND:DENIAL,"Don't eat that, it's spoiled"
 COMMAND:DENIAL,Don't engage in personal conversations during work hours
 COMMAND:DENIAL,Don't forget to lock the door when you leave
 COMMAND:DENIAL,Don't forget to lock the doors
@@ -945,14 +945,14 @@ COMMAND:DENIAL,Don't speak to strangers
 COMMAND:DENIAL,Don't take photos in this area
 COMMAND:DENIAL,Don't touch that
 COMMAND:DENIAL,Don't touch that! It's hot
-COMMAND:DENIAL,Don't touch that, it's fragile
+COMMAND:DENIAL,"Don't touch that, it's fragile"
 COMMAND:DENIAL,Don't touch the art
 COMMAND:DENIAL,Don't touch the artwork
 COMMAND:DENIAL,Don't touch the exhibit
 COMMAND:DENIAL,Don't touch the exhibits in the museum
 COMMAND:DENIAL,Don't touch the fragile objects on the shelf
 COMMAND:DENIAL,Don't touch the hot stove
-COMMAND:DENIAL,Don't touch the stove, it's hot
+COMMAND:DENIAL,"Don't touch the stove, it's hot"
 COMMAND:DENIAL,Don't turn off the security system
 COMMAND:DENIAL,Don't use the company's internet for personal browsing
 COMMAND:DENIAL,Don't use the microphone for confidential conversations
@@ -1124,7 +1124,7 @@ COMMAND:SOCIAL,Appreciate you starting the washing machine
 COMMAND:SOCIAL,Appreciate you turning on the subtitles
 COMMAND:SOCIAL,Thanks for adjusting the room temperature
 COMMAND:SOCIAL,Thanks for checking the security system status
-COMMAND:SOCIAL,Thanks for pausing the movie, I needed a break
+COMMAND:SOCIAL,"Thanks for pausing the movie, I needed a break"
 COMMAND:SOCIAL,Thanks for playing the bedtime playlist
 COMMAND:SOCIAL,Thanks for recording the TV show for me
 COMMAND:SOCIAL,Thanks for resuming the playlist
@@ -2102,7 +2102,7 @@ QUESTION:REQUEST,Can I get the recipe for this dish
 QUESTION:REQUEST,Can I have a brief overview of today's schedule
 QUESTION:REQUEST,Can I have a copy of the meeting notes
 QUESTION:REQUEST,Can I have a few more minutes to finish this task
-QUESTION:REQUEST,Can I have a glass of water, please
+QUESTION:REQUEST,"Can I have a glass of water, please"
 QUESTION:REQUEST,Can I have a list of today’s tasks
 QUESTION:REQUEST,Can I have a reminder for my workout session
 QUESTION:REQUEST,Can I have a summary of my recent transactions
@@ -2241,7 +2241,7 @@ QUESTION:REQUEST,Can you give me a glass of water
 QUESTION:REQUEST,Can you give me a summary of my calendar events
 QUESTION:REQUEST,Can you give me details on the career of Mia Martinez
 QUESTION:REQUEST,Can you guide me through setting up content filters
-QUESTION:REQUEST,Can you hand me a pen, please
+QUESTION:REQUEST,"Can you hand me a pen, please"
 QUESTION:REQUEST,Can you help me draft an email
 QUESTION:REQUEST,Can you help me find a good book to read
 QUESTION:REQUEST,Can you help me find a local pet adoption center
@@ -2507,8 +2507,8 @@ QUESTION:REQUEST,Can you update the software on the smart TV
 QUESTION:REQUEST,Can you vacuum the living room
 QUESTION:REQUEST,Can you verify the accuracy of these figures
 QUESTION:REQUEST,Can you verify these figures for accuracy
-QUESTION:REQUEST,Could I have that now, please
-QUESTION:REQUEST,Could I have that now, thank you
+QUESTION:REQUEST,"Could I have that now, please"
+QUESTION:REQUEST,"Could I have that now, thank you"
 QUESTION:REQUEST,Could you activate the dehumidifier
 QUESTION:REQUEST,Could you activate the security camera
 QUESTION:REQUEST,Could you add "Money Heist" to my watchlist
@@ -2777,7 +2777,7 @@ QUESTION:REQUEST,Could you turn down the volume on the TV
 QUESTION:REQUEST,Could you turn off the bedroom fan
 QUESTION:REQUEST,Could you turn off the humidifier in the bedroom
 QUESTION:REQUEST,Could you turn off the lights in the kitchen
-QUESTION:REQUEST,Could you turn off the lights, please
+QUESTION:REQUEST,"Could you turn off the lights, please"
 QUESTION:REQUEST,Could you turn off the living room fan
 QUESTION:REQUEST,Could you turn off the living room lights
 QUESTION:REQUEST,Could you turn off the notifications
@@ -2850,7 +2850,7 @@ QUESTION:REQUEST,Would you be able to lend me a hand with this project
 QUESTION:REQUEST,Would you be able to pick up some milk from the store
 QUESTION:REQUEST,Would you be able to proofread my essay
 QUESTION:REQUEST,Would you be so kind as to lend me your pen
-QUESTION:REQUEST,Would you feed the dog, please
+QUESTION:REQUEST,"Would you feed the dog, please"
 QUESTION:REQUEST,Would you mind giving me a ride to the airport
 QUESTION:REQUEST,Would you mind giving me a ride to the train station
 QUESTION:REQUEST,Would you mind helping me with this task
@@ -2859,7 +2859,7 @@ QUESTION:REQUEST,Would you mind letting me borrow your phone charger
 QUESTION:REQUEST,Would you mind passing me a napkin
 QUESTION:REQUEST,Would you mind passing me a tissue
 QUESTION:REQUEST,Would you mind passing me the salt
-QUESTION:REQUEST,Would you mind passing me the salt, please
+QUESTION:REQUEST,"Would you mind passing me the salt, please"
 QUESTION:REQUEST,Would you mind setting up the projector
 QUESTION:REQUEST,Would you mind sharing your notes with me
 QUESTION:REQUEST,Would you mind shutting the door
@@ -3344,38 +3344,38 @@ QUESTION:YESNO,Have you received the latest updates
 QUESTION:YESNO,Have you seen Michael
 QUESTION:YESNO,Have you updated the app recently
 QUESTION:YESNO,Have you visited Paris before
-QUESTION:YESNO,If it is June, is it hot in the North Pole
-QUESTION:YESNO,If someone cries, are they sad
-QUESTION:YESNO,If someone smiles, are they sad
-QUESTION:YESNO,If something is light, would it sink
-QUESTION:YESNO,If something is tasty, is it bad
-QUESTION:YESNO,If something smells, does it stink
-QUESTION:YESNO,If there are laves on the ground, is it winter
-QUESTION:YESNO,If there is snow on the ground, is it summer
-QUESTION:YESNO,If you break an egg, can you fix it
-QUESTION:YESNO,If you cut yourself really bad, should you go to the dentist
-QUESTION:YESNO,If you have a ball, can you play catch
-QUESTION:YESNO,If you have a bracelet, do you own jewelry
-QUESTION:YESNO,If you have a pen and paper, can you write your name
-QUESTION:YESNO,If you have boiling water, is it hot
-QUESTION:YESNO,If you rip your shirt, would you staple it back together
-QUESTION:YESNO,If you want to watch a movie, would you go to a bank
-QUESTION:YESNO,If you wanted to get warm, would you drink hot chocolate
-QUESTION:YESNO,If you went to a restaurant, would you see clowns
-QUESTION:YESNO,If you were a bee, could you sing
-QUESTION:YESNO,If you were a bird, would you have fins
-QUESTION:YESNO,If you were a builder, would you use a hammer
-QUESTION:YESNO,If you were a cat, would you have three legs
-QUESTION:YESNO,If you were a caterpillar, would you have legs
-QUESTION:YESNO,If you were a chair, could you swim
-QUESTION:YESNO,If you were a computer, would you be alive
-QUESTION:YESNO,If you were a fish, could you jump
-QUESTION:YESNO,If you were a horse, could you gallup
-QUESTION:YESNO,If you were a shark, would you eat fish
-QUESTION:YESNO,If you were an ant, would you live in dirt
-QUESTION:YESNO,If you were an owner, would you have a pet
-QUESTION:YESNO,If you were rotten, would you smell nice
-QUESTION:YESNO,If your bike has a flat tire, should you ride it
+QUESTION:YESNO,"If it is June, is it hot in the North Pole"
+QUESTION:YESNO,"If someone cries, are they sad"
+QUESTION:YESNO,"If someone smiles, are they sad"
+QUESTION:YESNO,"If something is light, would it sink"
+QUESTION:YESNO,"If something is tasty, is it bad"
+QUESTION:YESNO,"If something smells, does it stink"
+QUESTION:YESNO,"If there are laves on the ground, is it winter"
+QUESTION:YESNO,"If there is snow on the ground, is it summer"
+QUESTION:YESNO,"If you break an egg, can you fix it"
+QUESTION:YESNO,"If you cut yourself really bad, should you go to the dentist"
+QUESTION:YESNO,"If you have a ball, can you play catch"
+QUESTION:YESNO,"If you have a bracelet, do you own jewelry"
+QUESTION:YESNO,"If you have a pen and paper, can you write your name"
+QUESTION:YESNO,"If you have boiling water, is it hot"
+QUESTION:YESNO,"If you rip your shirt, would you staple it back together"
+QUESTION:YESNO,"If you want to watch a movie, would you go to a bank"
+QUESTION:YESNO,"If you wanted to get warm, would you drink hot chocolate"
+QUESTION:YESNO,"If you went to a restaurant, would you see clowns"
+QUESTION:YESNO,"If you were a bee, could you sing"
+QUESTION:YESNO,"If you were a bird, would you have fins"
+QUESTION:YESNO,"If you were a builder, would you use a hammer"
+QUESTION:YESNO,"If you were a cat, would you have three legs"
+QUESTION:YESNO,"If you were a caterpillar, would you have legs"
+QUESTION:YESNO,"If you were a chair, could you swim"
+QUESTION:YESNO,"If you were a computer, would you be alive"
+QUESTION:YESNO,"If you were a fish, could you jump"
+QUESTION:YESNO,"If you were a horse, could you gallup"
+QUESTION:YESNO,"If you were a shark, would you eat fish"
+QUESTION:YESNO,"If you were an ant, would you live in dirt"
+QUESTION:YESNO,"If you were an owner, would you have a pet"
+QUESTION:YESNO,"If you were rotten, would you smell nice"
+QUESTION:YESNO,"If your bike has a flat tire, should you ride it"
 QUESTION:YESNO,Is "Avatar" the highest-grossing movie of all time
 QUESTION:YESNO,Is "Freakonomics Radio" included in the top 10 podcasts
 QUESTION:YESNO,Is "How I Built This" available in the latest version
@@ -4253,7 +4253,7 @@ SENTENCE:EXCLAMATION,What a remarkable discovery
 SENTENCE:EXCLAMATION,What a remarkable person
 SENTENCE:EXCLAMATION,What a seamless way to manage home devices
 SENTENCE:EXCLAMATION,What a sleek design for this smart speaker
-SENTENCE:EXCLAMATION,What a smart parrot, it can talk!
+SENTENCE:EXCLAMATION,"What a smart parrot, it can talk!"
 SENTENCE:EXCLAMATION,What a smart way to enhance home security
 SENTENCE:EXCLAMATION,What a smart way to manage home security systems
 SENTENCE:EXCLAMATION,What a smart way to manage multilingual conversations
@@ -4356,12 +4356,12 @@ SENTENCE:EXCLAMATION,What an intense action sequence that was!
 SENTENCE:EXCLAMATION,What an interesting Spanish podcast episode!
 SENTENCE:EXCLAMATION,What an interesting lecture
 SENTENCE:EXCLAMATION,What an unforgettable experience
-SENTENCE:EXCLAMATION,Wow, Sasha Grey has had a remarkable career
-SENTENCE:EXCLAMATION,Wow, that's an impressive feature
-SENTENCE:EXCLAMATION,Wow, the sound quality of this speaker is amazing!
-SENTENCE:EXCLAMATION,Wow, this song is incredible
-SENTENCE:EXCLAMATION,Wow, what an amazing performance
-SENTENCE:EXCLAMATION,Wow, what an incredible performance
+SENTENCE:EXCLAMATION,"Wow, Sasha Grey has had a remarkable career"
+SENTENCE:EXCLAMATION,"Wow, that's an impressive feature"
+SENTENCE:EXCLAMATION,"Wow, the sound quality of this speaker is amazing!"
+SENTENCE:EXCLAMATION,"Wow, this song is incredible"
+SENTENCE:EXCLAMATION,"Wow, what an amazing performance"
+SENTENCE:EXCLAMATION,"Wow, what an incredible performance"
 SENTENCE:SOCIAL,Appreciate you adjusting the accent
 SENTENCE:SOCIAL,Appreciate you checking the pet's water bowl
 SENTENCE:SOCIAL,Appreciate you setting the alarm
@@ -4408,7 +4408,7 @@ SENTENCE:SOCIAL,Enjoy the movie night
 SENTENCE:SOCIAL,Enjoy the movie night!
 SENTENCE:SOCIAL,Enjoy the movie tonight
 SENTENCE:SOCIAL,Enjoy the new Chinese drama series
-SENTENCE:SOCIAL,Enjoy the podcast, it's really insightful
+SENTENCE:SOCIAL,"Enjoy the podcast, it's really insightful"
 SENTENCE:SOCIAL,Enjoy the rest of the series
 SENTENCE:SOCIAL,Enjoy the rest of your day
 SENTENCE:SOCIAL,Enjoy the show
@@ -4458,7 +4458,7 @@ SENTENCE:SOCIAL,Glad you’re enjoying the German opera
 SENTENCE:SOCIAL,Good afternoon everyone
 SENTENCE:SOCIAL,Good evening everyone
 SENTENCE:SOCIAL,Good evening ladies and gentlemen
-SENTENCE:SOCIAL,Good evening, how can I assist you today
+SENTENCE:SOCIAL,"Good evening, how can I assist you today"
 SENTENCE:SOCIAL,Good job on configuring the thermostat
 SENTENCE:SOCIAL,Good job on setting up the smart home system
 SENTENCE:SOCIAL,Good luck on your exam
@@ -4963,7 +4963,7 @@ SENTENCE:STATEMENT,I verified that the smart irrigation system is working proper
 SENTENCE:STATEMENT,I want you to buy bitcoin
 SENTENCE:STATEMENT,I watched all episodes of "The Crown" in one weekend
 SENTENCE:STATEMENT,Improving sleep quality can enhance overall health
-SENTENCE:STATEMENT,In my opinion, this restaurant has the best pizza in town
+SENTENCE:STATEMENT,"In my opinion, this restaurant has the best pizza in town"
 SENTENCE:STATEMENT,Innovative solutions are essential for tackling global issues
 SENTENCE:STATEMENT,It looks like we are in for a heatwave
 SENTENCE:STATEMENT,It’s going to be sunny and warm this afternoon
@@ -4997,7 +4997,7 @@ SENTENCE:STATEMENT,My dog's diet includes high-quality kibble and occasional tre
 SENTENCE:STATEMENT,My dog's favorite treat is peanut butter
 SENTENCE:STATEMENT,My puppy is learning to sit and stay
 SENTENCE:STATEMENT,My thermostat will adjust automatically based on the schedule
-SENTENCE:STATEMENT,Netflix offers a wide range of genres including drama, comedy, and documentary
+SENTENCE:STATEMENT,"Netflix offers a wide range of genres including drama, comedy, and documentary"
 SENTENCE:STATEMENT,Netflix recently released a new season of “Stranger Things”
 SENTENCE:STATEMENT,Netflix recommended "The Queen's Gambit" based on my viewing history
 SENTENCE:STATEMENT,Netflix’s “The Irishman” has a runtime of 3 hours and 29 minutes
@@ -5046,7 +5046,7 @@ SENTENCE:STATEMENT,Technological advancements are rapid and constant
 SENTENCE:STATEMENT,Technological advancements are shaping the future
 SENTENCE:STATEMENT,Technology evolves at a rapid pace
 SENTENCE:STATEMENT,The Amazon Rainforest is the largest rainforest in the world
-SENTENCE:STATEMENT,The Declaration of Independence was signed on July 4, 1776
+SENTENCE:STATEMENT,"The Declaration of Independence was signed on July 4, 1776"
 SENTENCE:STATEMENT,The Earth is round
 SENTENCE:STATEMENT,The Earth revolves around the sun
 SENTENCE:STATEMENT,The Great Barrier Reef is the largest coral reef system in the world
